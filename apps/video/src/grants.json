@@ -6,7 +6,19 @@
     "attributes": "*"
   },
   {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "User",
     "action": "create:any",
     "attributes": "*"
@@ -18,7 +30,19 @@
     "attributes": "*"
   },
   {
+    "role": "admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "User",
     "action": "delete:any",
     "attributes": "*"
@@ -30,122 +54,128 @@
     "attributes": "*"
   },
   {
-    "role": "user",
-    "resource": "Order",
-    "action": "read:own",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Order",
-    "action": "create:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Order",
-    "action": "update:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Order",
-    "action": "delete:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Order",
+    "role": "admin",
+    "resource": "User",
     "action": "read:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Customer",
+    "resource": "Project",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
     "action": "read:own",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Customer",
+    "resource": "Project",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
     "action": "create:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Customer",
+    "resource": "Project",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
     "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Customer",
+    "resource": "Project",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
     "action": "delete:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Customer",
+    "resource": "Project",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
     "action": "read:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Address",
+    "resource": "Video",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Video",
     "action": "read:own",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Address",
+    "resource": "Video",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Video",
     "action": "create:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Address",
+    "resource": "Video",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Video",
     "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Address",
+    "resource": "Video",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Video",
     "action": "delete:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Address",
+    "resource": "Video",
     "action": "read:any",
     "attributes": "*"
   },
   {
-    "role": "user",
-    "resource": "Product",
-    "action": "read:own",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Product",
-    "action": "create:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Product",
-    "action": "update:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Product",
-    "action": "delete:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Product",
+    "role": "admin",
+    "resource": "Video",
     "action": "read:any",
     "attributes": "*"
   }
