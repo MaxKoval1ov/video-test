@@ -1,0 +1,33 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  createdAt DateTime @default(now())
+  firstName String?
+  id        String   @id @default(uuid())
+  lastName  String?
+  password  String
+  roles     Json
+  updatedAt DateTime @updatedAt
+  username  String   @unique
+}
+
+model Project {
+  createdAt DateTime @default(now())
+  id        String   @id @default(uuid())
+  title     String   @unique
+  updatedAt DateTime @updatedAt
+}
+
+model Video {
+  createdAt DateTime @default(now())
+  file      String
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
